@@ -18,10 +18,6 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-br from-accent/5 via-transparent to-transparent" />
         <div className="absolute top-20 left-1/4 w-96 h-96 bg-accent/5 rounded-full blur-3xl" />
         <div className="max-w-7xl mx-auto px-6 py-24 text-center relative">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent-light text-sm font-medium mb-8">
-            <span className="w-1.5 h-1.5 rounded-full bg-accent-light animate-pulse" />
-            {t('home.trackmartech')}
-          </div>
           <h1 className="font-display font-extrabold text-5xl md:text-7xl text-white leading-none tracking-tight mb-6">
             {t('home.heroTitle1')}<br />
             <span className="bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent">

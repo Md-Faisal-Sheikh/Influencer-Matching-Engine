@@ -1,6 +1,6 @@
 # InfluenceIQ - Influencer Matching Engine
 
-BuildFest 2026 MarTech project for matching Bangladeshi brands with creators using deterministic scoring, optional free live YouTube data, optional Supabase storage, and graph-based trust scoring.
+MarTech project for matching Bangladeshi brands with creators using deterministic scoring, optional free live YouTube data, optional Supabase storage, and graph-based trust scoring.
 
 ## What Is Included
 
@@ -91,6 +91,6 @@ Then add `SUPABASE_URL` and `SUPABASE_ANON_KEY` to the backend environment. If o
 - `POST /api/brands`
 - `GET /api/trust-graph`
 
-## Notes For BuildFest Judges
+## Notes For Reviewers
 
 The app avoids fake paid dependencies: matching, graph trust, and campaign recommendations work offline. Live API scoring is available through YouTube's free quota, while Instagram/TikTok are intentionally treated as local fallback channels unless official access is granted.
